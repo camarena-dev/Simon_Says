@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+}
+
+h1,
+#score {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 1vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.control {
+    width: 85vh;
+    text-align: end;
+    gap: 1vh;
+}
+
+.control > button {
+    width: 75px;
+}
+
+.game {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    width: 85vh;
+    height: 85vh;
+    grid-template-columns: auto auto;
+    gap: 2vh;
+    background-color: black;
+}
+
+.container>div {
+    cursor: pointer;
+}
+
+#start {
+    margin-left: auto;
+}
+
+#green {
+    background-color: #008000;
+}
+
+#green:active {
+    box-shadow: 0 0 20px #008000, 0 0 40px #109010;
+}
+
+#red {
+    background-color: #ff0000;
+}
+
+#red:active {
+    box-shadow: 0 0 20px #ff0000, 0 0 40px #ec5353;
+}
+
+#yellow {
+    background-color: #ffff00;
+}
+
+#yellow:active {
+    box-shadow: 0 0 20px #ffff00, 0 0 40px #ecec53;
+}
+
+#blue {
+    background-color: #0000ff;
+}
+
+#blue:active {
+    box-shadow: 0 0 20px #0000ff, 0 0 40px #2e2ed2;
+}
